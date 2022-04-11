@@ -1,0 +1,53 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+div .card{
+    width: 300px;
+    height: 50%;
+    background-color: powderblue;
+    /*to center the entire div*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    padding: 1em 1.5em 1em 1.5em;
+
+    
+    /* to center the text*/
+    text-align: center;
+}
+
+h1 .profile-name{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+h3 .profile-position{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profile-pic{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    /*to center the image*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    
+
+}
+
+.profile-icon{
+    height: 20px;
+    width: auto;
+    
+}
+
+/* div .social-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
