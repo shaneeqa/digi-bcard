@@ -12,10 +12,16 @@ export default function Header(){
                 <small>shaneeqa.wordpress.com</small>           
             </div>
             <div>
-                <button text="Email">
-                    <img className="profile-icon" src={mailLogo} alt="email"></img>Email</button>
-                <button  text="LinkedIn">
-                    <img className="profile-icon" src={linkedInLogo} alt="linkedin"></img> LinkedIn</button>
+            <a className="button" href="mailto:aneeqahmadh@gmail.com">
+                    <img className="profile-icon" src={mailLogo} alt="email"></img> Email
+                </a>
+                
+                <a className="button" href="https://www.linkedin.com/in/shaneeqa">
+                    <img className="profile-icon" src={linkedInLogo} alt="linkedin"></img> LinkedIn
+                </a>
+                {/* <button  text="LinkedIn" onclick="window.location.href='https://www.linkedin.com/in/shaneeqa/';"> */}
+                    {/* <img className="profile-icon" src={linkedInLogo} alt="linkedin"></img> LinkedIn */}
+                {/* </button>  */}
             </div>
         </div>
     )

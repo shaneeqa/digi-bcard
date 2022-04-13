@@ -5,7 +5,7 @@ body{
 div .card{
     width: 300px;
     height: 50%;
-    background-color: powderblue;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     /*to center the entire div*/
     display: block;
     margin-left: auto;
@@ -36,7 +36,7 @@ h3 .profile-position{
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    
+    /*testing*/
 
 }
 
@@ -51,3 +51,17 @@ h3 .profile-position{
     margin-left: auto;
     margin-right: auto;
 } */
+
+a.button{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+       /* border: 2px solid black; */
+    color: green;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px 5px;
+    cursor: pointer;
+    text-decoration:none; /*removes underline of the anchor tag */
+
+}
